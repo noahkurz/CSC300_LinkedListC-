@@ -3,6 +3,8 @@
 //constructs a node with value "payload"
 Node::Node(int payload)
 {
+    //this->payload = (*this).payload
+    //returns the value of the payload
     this->payload = payload;
 }
 

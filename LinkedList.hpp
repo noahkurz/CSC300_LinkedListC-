@@ -15,6 +15,11 @@ class LinkedList
     public: 
         LinkedList(); 
         void addFront(int payload);
+        int getFront();
+        int removeFront();
+        void addEnd(int payload);
+        int getEnd();
+        int removeEnd();
         void display();
 };
 #endif /* LinkedList_hpp */
