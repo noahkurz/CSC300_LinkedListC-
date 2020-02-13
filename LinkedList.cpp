@@ -54,7 +54,6 @@ void LinkedList::addEnd(int payload)
     }
     temp->setNextNode(newNode);
     this->count++;
-    //delete temp;
 }
 
 int LinkedList::getEnd()
