@@ -21,5 +21,9 @@ class LinkedList
         int getEnd();
         int removeEnd();
         void display();
-};
+        void addAtIndex(int index, int payload);
+        int getIndex(int index);
+        int removeIndex(int index);
+
+    };
 #endif /* LinkedList_hpp */
